@@ -3,7 +3,7 @@ app:
   volumes:
     - ".:/usr/src/app"
   working_dir: /usr/src/app
-  command: sh -c 'docker-php-ext-install pdo pdo_mysql && php listExpWorld.php'
+  command: sh -c 'docker-php-ext-install pdo pdo_mysql && php setupDatabase.php'
   links:
     - data
 

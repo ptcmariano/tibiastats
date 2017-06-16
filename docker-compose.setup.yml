@@ -1,0 +1,6 @@
+app:
+  image: composer
+  volumes:
+    - ".:/usr/src/app"
+  working_dir: /usr/src/app
+  command: composer update -vv
