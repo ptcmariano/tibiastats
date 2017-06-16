@@ -1,0 +1,16 @@
+{
+    "name": "ptcmariano/tibiastats",
+    "description": "get experience of top players your world",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paulo Tiago Mariano",
+            "email": "paulotiagocm@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "fabpot/goutte": "^3.2"
+    }
+}
