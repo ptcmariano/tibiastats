@@ -14,7 +14,8 @@ before_install:
 
 install:
   - docker-compose -f docker-compose.setup.yml up
-  - docker-compose -f docker-compose.initdatabase.yml up
+  - docker-compose -f docker-compose.initdatabase.yml up -d
+  - docker-compose -f docker-compose.initdatabase.yml logs -f app
 
 script: 
   - docker-compose up -d
