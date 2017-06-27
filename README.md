@@ -11,6 +11,8 @@ get experience of top players your world
 
 # run with docker-compose
   docker-compose up
+  
+  [![Build Status](https://travis-ci.org/ptcmariano/tibiastats.svg?branch=master)](https://travis-ci.org/ptcmariano/tibiastats)
 
 # roadmap
 * 0.1 = How might we do get data about top players
