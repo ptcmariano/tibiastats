@@ -9,7 +9,7 @@ $user = 'root';
 $password = 'stats';
 
 $client = new Client();
-$crawler = $client->request('GET', 'https://secure.tibia.com/community/?subtopic=highscores&world=Umera&list=experience');
+$crawler = $client->request('GET', 'https://secure.tibia.com/community/?subtopic=highscores&world=Honbra&list=experience');
 
 $crawler->filter('tr.LabelH ~ tr')->each(function ($node) use ($dsn, $user, $password) {
     if ($node->filter('td:nth-child(2)')->count()>0) {
